@@ -9,7 +9,7 @@ Unattended automation, built for the failure cases.
 | [gui-report-automation](https://github.com/lon-coeng/gui-report-automation) | Borrows a human-owned Chrome session on a Linux VM to produce a daily report |
 | [drive-whisper-transcriber](https://github.com/lon-coeng/drive-whisper-transcriber) | Batch transcription of Google Drive media with Whisper on a Compute Engine VM |
 
-Both are rebuilt from systems that are currently running in production, with information identifying the client removed.
+Both are sanitised editions of systems still running in production, published with the client's permission.
 
 ## Not public
 
