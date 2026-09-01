@@ -10,8 +10,9 @@ Unattended automation, built for the failure cases.
 | [drive-whisper-transcriber](https://github.com/lon-coeng/drive-whisper-transcriber) | Batch transcription of Google Drive media with Whisper on a Compute Engine VM |
 | [durable-webhook](https://github.com/lon-coeng/durable-webhook) | A webhook relay on Cloudflare Workers that accepts fast and delivers stubbornly |
 | [publish-guard](https://github.com/lon-coeng/publish-guard) | Finds what you forgot to remove before publishing a repository — git history included |
+| [flex-guard](https://github.com/lon-coeng/flex-guard) | Catches the LINE Flex messages that fail to send, and the ones that fail quietly |
 
-The first two are sanitised editions of systems still running in production, published with the client's permission. The other two are my own work, unconnected to any client.
+The first two are sanitised editions of systems still running in production, published with the client's permission. The rest are my own work, unconnected to any client.
 
 ## Not public
 
