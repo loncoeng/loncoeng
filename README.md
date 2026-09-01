@@ -8,12 +8,14 @@ Unattended automation, built for the failure cases.
 |---|---|
 | [gui-report-automation](https://github.com/lon-coeng/gui-report-automation) | Borrows a human-owned Chrome session on a Linux VM to produce a daily report |
 | [drive-whisper-transcriber](https://github.com/lon-coeng/drive-whisper-transcriber) | Batch transcription of Google Drive media with Whisper on a Compute Engine VM |
+| [durable-webhook](https://github.com/lon-coeng/durable-webhook) | A webhook relay on Cloudflare Workers that accepts fast and delivers stubbornly |
+| [publish-guard](https://github.com/lon-coeng/publish-guard) | Finds what you forgot to remove before publishing a repository — git history included |
 
-Both are sanitised editions of systems still running in production, published with the client's permission.
+The first two are sanitised editions of systems still running in production, published with the client's permission. The other two are my own work, unconnected to any client.
 
 ## Not public
 
-Most of my work is under contract and cannot be published — around 900 commits, 165 database migrations, a permission system, analytics, and multi-account isolation. The two repositories above are what I can show.
+Most of my work is under contract and cannot be published — around 900 commits, 165 database migrations, a permission system, analytics, and multi-account isolation. The repositories above are what I can show.
 
 ## Stack
 
@@ -23,7 +25,7 @@ Most of my work is under contract and cannot be published — around 900 commits
 
 ## How I work
 
-I design around how things fail — idempotency in state files, quarantine instead of delete, stop when the outcome is unknown, never automate authentication. The two repositories above show what that looks like in practice.
+I design around how things fail — idempotency in state files, quarantine instead of delete, stop when the outcome is unknown, never automate authentication. The repositories above show what that looks like in practice.
 
 ## Availability
 
