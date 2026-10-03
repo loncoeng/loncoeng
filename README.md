@@ -1,35 +1,26 @@
-# Coeng
+### Coeng
 
-Unattended automation, built for the failure cases.
+Building small production systems and the automation around them.
 
-## Public work
+Each one is designed from how it fails: idempotency, quarantine instead of
+delete, and stopping when the outcome is unknown.
 
-| | |
-|---|---|
-| [gui-report-automation](https://github.com/loncoeng/gui-report-automation) | Borrows a human-owned Chrome session on a Linux VM to produce a daily report |
-| [drive-whisper-transcriber](https://github.com/loncoeng/drive-whisper-transcriber) | Batch transcription of Google Drive media with Whisper on a Compute Engine VM |
-| [durable-webhook](https://github.com/loncoeng/durable-webhook) | A webhook relay on Cloudflare Workers that accepts fast and delivers stubbornly |
-| [publish-guard](https://github.com/loncoeng/publish-guard) | Finds what you forgot to remove before publishing a repository — git history included |
-| [flex-guard](https://github.com/loncoeng/flex-guard) | Catches the LINE Flex messages that fail to send, and the ones that fail quietly |
+TypeScript · Python · Cloudflare Workers · Node.js
 
-The first two are sanitised editions of systems still running in production, published with the client's permission. The rest are my own work, unconnected to any client.
+### Works
 
-## Not public
+*   [flex-guard](https://github.com/loncoeng/flex-guard) — catches the LINE Flex
+    messages that fail to send, and the ones that fail quietly.
+    [npm](https://www.npmjs.com/package/flex-guard)
+*   [publish-guard](https://github.com/loncoeng/publish-guard) — finds what you
+    forgot to remove before publishing a repository, git history included.
+    [PyPI](https://pypi.org/project/publish-guard/)
+*   [durable-webhook](https://github.com/loncoeng/durable-webhook) — a webhook
+    relay on Cloudflare Workers that accepts fast and delivers stubbornly.
+*   [gui-report-automation](https://github.com/loncoeng/gui-report-automation) —
+    borrows a human-owned Chrome session on a Linux VM to produce a daily report.
+*   [drive-whisper-transcriber](https://github.com/loncoeng/drive-whisper-transcriber)
+    — batch transcription of Google Drive media with Whisper on a Compute Engine VM.
 
-Most of my work is under contract and cannot be published — around 900 commits, 165 database migrations, a permission system, analytics, and multi-account isolation. The repositories above are what I can show.
-
-## Stack
-
-**Production** — TypeScript · JavaScript · Python · Node.js · Cloudflare Workers (D1 / KV) · Google Workspace API
-
-**Ops** — systemd · Google Compute Engine · Railway · Playwright · GitHub Actions
-
-## How I work
-
-I design around how things fail — idempotency in state files, quarantine instead of delete, stop when the outcome is unknown, never automate authentication. The repositories above show what that looks like in practice.
-
-## Availability
-
-Native Japanese speaker, based in Macau (UTC+8) — one hour behind JST, so working hours overlap almost entirely with Japan. Comfortable working in Japanese or English.
-
-日本出身、マカオ在住。日本との時差は1時間で、日本時間での対応が可能です。
+The last two are sanitised editions of systems still running, published with the
+client's permission. Most of my work is under contract and cannot be published.
