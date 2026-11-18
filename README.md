@@ -1,13 +1,24 @@
 ### Coeng
 
-Building small production systems and the automation around them.
-
-Each one is designed from how it fails: idempotency, quarantine instead of
-delete, and stopping when the outcome is unknown.
+Building small production systems and the automation around them, designed
+from how they fail.
 
 TypeScript · Python · Cloudflare Workers · Node.js
 
-### Works
+### chairside
+
+[chairside](https://github.com/loncoeng/chairside) — bookings, customer records
+and takings for a hair salon in Macau: seats that are not interchangeable,
+stylists who come and go, and the three currencies a shop there takes.
+Cloudflare Workers and D1.
+
+[**Try the demo**](https://chairside.loncoeng.dev) — it runs entirely in your
+browser. What happens when two people book the same chair at once, or the pay
+button is pressed twice, is in [DESIGN.md](https://github.com/loncoeng/chairside/blob/main/DESIGN.md).
+
+### Smaller tools
+
+Each written for a problem I ran into at work.
 
 *   [flex-guard](https://github.com/loncoeng/flex-guard) — catches the LINE Flex
     messages that fail to send, and the ones that fail quietly.
