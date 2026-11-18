@@ -1,7 +1,8 @@
 ### Coeng
 
-Building small production systems and the automation around them, designed
-from how they fail.
+I build small production systems and the automation around them, and design
+them around what goes wrong: a request sent twice, a connection that drops
+halfway, two people booking the same chair.
 
 TypeScript · Python · Cloudflare Workers · Node.js
 
@@ -13,12 +14,13 @@ stylists who come and go, and the three currencies a shop there takes.
 Cloudflare Workers and D1.
 
 [**Try the demo**](https://chairside.loncoeng.dev) — it runs entirely in your
-browser. What happens when two people book the same chair at once, or the pay
-button is pressed twice, is in [DESIGN.md](https://github.com/loncoeng/chairside/blob/main/DESIGN.md).
+browser. [DESIGN.md](https://github.com/loncoeng/chairside/blob/main/DESIGN.md)
+covers what happens when two people book the same chair at once, or the pay
+button is pressed twice.
 
 ### Smaller tools
 
-Each written for a problem I ran into at work.
+Each one was written for a problem I ran into at work.
 
 *   [flex-guard](https://github.com/loncoeng/flex-guard) — catches the LINE Flex
     messages that fail to send, and the ones that fail quietly.
@@ -29,9 +31,10 @@ Each written for a problem I ran into at work.
 *   [durable-webhook](https://github.com/loncoeng/durable-webhook) — a webhook
     relay on Cloudflare Workers that accepts fast and delivers stubbornly.
 *   [gui-report-automation](https://github.com/loncoeng/gui-report-automation) —
-    borrows a human-owned Chrome session on a Linux VM to produce a daily report.
+    drives a Chrome session that a person signed in to, on a Linux VM, to produce
+    a daily report.
 *   [drive-whisper-transcriber](https://github.com/loncoeng/drive-whisper-transcriber)
     — batch transcription of Google Drive media with Whisper on a Compute Engine VM.
 
-The last two are sanitised editions of systems still running, published with the
+The last two are sanitised versions of systems still running, published with the
 client's permission. Most of my work is under contract and cannot be published.
