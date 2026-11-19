@@ -4,7 +4,7 @@ I build small production systems and the automation around them, and design
 them around what goes wrong: a request sent twice, a connection that drops
 halfway, two people booking the same chair.
 
-TypeScript · Python · Cloudflare Workers · Node.js
+TypeScript · Python
 
 ### chairside
 
