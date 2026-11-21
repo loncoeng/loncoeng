@@ -44,4 +44,5 @@ client's permission. Most of my work is under contract and cannot be published.
 [司機，有落！ -澳門-](https://yaulok.loncoeng.dev) ("Driver, getting off!") — a
 one-button browser game: drive Macau's No. 11 bus, pick up whoever waves, stop
 when the bell rings, and get shouted at in Cantonese if you sail past a stop.
-Made for phones, in Cantonese only. The source is not public.
+Made for phones, and plays on a computer too. Cantonese only; the source is not
+public.
